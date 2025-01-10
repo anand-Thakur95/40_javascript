@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.container{
+ 
+   
+}
+
+.navbar ul{
+    
+    background-Color:aqua;  
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.navbar ul li a{
+    display: inline-block;
+    text-decoration:none;
+}
+.Color ul{
+    margin-top:2rem;
+    display:flex;
+    justify-content: space-around;
+    list-style:none;
+    
+}
+
+.Color ul li{
+    display: flex;
+    justify-content:center;
+    border:2px;
+    background-Color: blue;
+    width:4rem;
+    height:3rem; 
+    align-items:center;
+    border-radius:1rem;
+}
+#gray{
+    background-color:gray;
+
+}
+#blue{
+    background-color:blue;
+}
+#pink{
+    background-color:pink;
+}
+#yellow{
+    background-color:yellow;
+}
+#orange{
+    background-color:orange;
+}
+#brown{
+    background-color:brown;
+}
