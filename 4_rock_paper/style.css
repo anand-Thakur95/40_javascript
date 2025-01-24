@@ -1,0 +1,108 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.Choice{
+    display: flex;
+    justify-content:center;
+    gap:2rem;
+    margin:1rem;
+}
+.Result{
+    display:flex;
+    justify-content: center;
+    margin-top:6rem;
+    height:40vh;
+}
+
+.Score{
+    gap:4rem;
+    padding:1rem;
+    justify-items:space-around;
+    font-size:2rem;
+    font-family: cursive;
+    background:gray;
+    color:rgb(25, 230, 230)
+}
+.Score #CompChoice{
+    margin-bottom:3rem;
+    
+}
+
+#Tie{
+    background:pink;
+    padding:1rem;
+    width:full;
+    justify-content: center;
+    font-size:2rem;
+    font-family: cursive;
+}
+
+.Choice #Rock img, #Paper img, #Scissor img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#Rock:hover{
+    cursor:pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+#Paper:hover{
+    cursor:pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+#Scissor:hover{
+    cursor:pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.Player{
+    padding:1rem;
+    justify-items:space-around;
+    font-size:2rem;
+    font-family: cursive;
+    background:gray;
+    color:rgb(25, 230, 230)
+}
+
+.Player #PlayerScore{
+    margin-top:3rem;
+}
+
+
+@media (max-width:768px){
+    .Result{
+        display:grid;
+        justify-content: center;
+        margin-top:3rem;
+        height:40vh;
+    }
+    .Player #PlayerScore{
+        margin-top:1rem;
+    }
+    .Score #CompChoice{
+        margin-bottom:1rem;
+        
+    }
+    
+}
+
+@media (max-width:425px){
+    .Player{
+        font-size:1.5rem;
+    }
+    .Score{
+        font-size:1.5rem;
+    }
+    .Choice #Rock img, #Paper img, #Scissor img{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
