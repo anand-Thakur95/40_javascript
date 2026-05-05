@@ -8,10 +8,6 @@ body {
     height: 100vh;
     background-color: #11d6;
   }
- 
-
-
-  
   #quiz-container {
     display: flex;
     flex-direction: column;

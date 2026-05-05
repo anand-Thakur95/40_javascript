@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="style.css"></link>
+    
+</head>
+
+<body>
+    <div class="container" id="login-page">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" required><br><br>
+            <button class="button" type="submit">Login</button>
+        </form>
+    </div>
+    
+    <div class="container" id="project-list" style="display: none;">
+        <h2>Project List</h2>
+        <ul id="projects">
+            <!-- Projects will be generated here dynamically -->
+        </ul>
+    </div>
+    
+    <div class="container" id="painting-page" style="display: none;">
+        <h2>Painting Page</h2>
+        <div class="canvas-container">
+            <canvas id="paint-canvas" width="600" height="400"></canvas><br>
+            <button class="button" id="save-painting">Save Painting</button>
+           
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
